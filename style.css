@@ -61,7 +61,6 @@ header {
   background-color: #cf587c;
   padding: 20px 20px 0 20px;
   text-align: center;
-  margin-bottom: 40px;
 }
 
 .logo {
@@ -69,7 +68,6 @@ header {
   font-size: 72px;
   color: #ecdbc9;
   text-align: center;
-  padding-top: 20px;
 }
 
 header nav {
@@ -77,11 +75,13 @@ header nav {
   justify-content: center;
 }
 
+heading nav ul {
+  display: flex;
+}
+
 
 header nav ul li {
   list-style-type: none;
-  display: flex;
-  padding-left: 0;
 }
 
 /* -- targets the anchor tags -- */
@@ -127,7 +127,8 @@ form button {
 }
 
 form div {
-  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* -------  Footer ------- */
