@@ -65,6 +65,10 @@ header {
   color: #ecdbc9;
 }
 
+.menu {
+  display: flex;
+}
+
 header nav {
   display: flex;
   justify-content: center;
