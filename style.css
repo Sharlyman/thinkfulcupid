@@ -163,8 +163,14 @@ footer p {
   }
 
   header nav ul {
-   align-items: center;
+   align-items: flex;
   }
+  
+ main img {
+  width: 100px;
+}
+
+    
 
   header nav ul li a:hover {
     color: #bdbdbd;
