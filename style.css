@@ -59,7 +59,7 @@ main img {
 /* -------  Navigation ------- */
 
 header {
-  background-color: #cf587c;
+  background-color: #83092e;
   padding: 20px 20px 0 20px;
   text-align: center;
 }
@@ -68,7 +68,6 @@ header {
   font-family: "Tangerine", cursive;
   font-size: 72px;
   color: #ecdbc9;
-  text-align: center;
 }
 
 header nav {
@@ -93,10 +92,7 @@ header nav ul li a {
   text-decoration: none;
   padding: 0 20px 0 0;
 }
- /* removes margin of the right to the last anchor tag so it appears centered */
-header nav ul li:last-child a {
-  margin-right: 0;
-}
+
 
 header nav ul li a:hover {
   color: #bdbdbd;
@@ -113,8 +109,7 @@ form label {
   font-weight: bold;
 }
 
-form select,
-form input {
+form select, form input {
   margin-bottom: 20px;
   width: 180px;
 }
@@ -153,18 +148,17 @@ footer p {
   header {
     display: flex;
     justify-content: space-between;
-    padding: 0 30px;
+    padding: 0;
   }
 
 
   .logo {
-    align-content: space-between;
     margin: 14px 0 14px 20px;
-    font-size: 40px;
+    font-size: 42px;
   }
 
   header nav ul {
-   align-items: flex;
+   align-items: center;
    flex-direction: row;
   }
   
@@ -172,7 +166,6 @@ footer p {
   width: 100px;
 }
 
-    
 
   header nav ul li a:hover {
     color: #bdbdbd;
