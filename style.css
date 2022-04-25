@@ -1,7 +1,7 @@
 /* -------  General Styles ------- */
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #6b1a22;
 }
 
@@ -31,28 +31,16 @@ section.alternate-background {
   color: #ecdbc9;
 }
 
-img {
- height: 100%;
- width: 100%;
+main img {
+  width: 100%;
 }
-
-.cat {
- height:300px;
- width: 300px;
-}
-
-
 
 /* ---  Groups & Items --- */
-
-/*-- flexbox properties-- */
 
 .group {
   display: flex;
   flex-direction: column;
 }
-  /* -- flex:1 to have everything the same width
-  and to have barrier between the item containers --*/
 
 .item {
   flex: 1;
@@ -79,27 +67,22 @@ header {
 
 header nav {
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 
-heading nav ul {
+header nav ul {
   display: flex;
 }
-
 
 header nav ul li {
   list-style-type: none;
 }
-
-/* -- targets the anchor tags -- */
 
 header nav ul li a {
   color: #ecdbc9;
   text-decoration: none;
   padding: 0 20px 0 0;
 }
-
 
 header nav ul li a:hover {
   color: #bdbdbd;
@@ -116,6 +99,11 @@ form label {
   font-weight: bold;
 }
 
+form div {
+  display: flex;
+  justify-content: space-between;
+}
+
 form select, form input {
   margin-bottom: 20px;
   width: 180px;
@@ -128,11 +116,6 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
-}
-
-form div {
-  display: flex;
-  justify-content: space-between;
 }
 
 /* -------  Footer ------- */
@@ -148,41 +131,25 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-/* Groups and items (Desktop) */
 
 @media all and (min-width: 480px) {
-
   header {
     display: flex;
     justify-content: space-between;
     padding: 0;
   }
 
-
   .logo {
     margin: 14px 0 14px 20px;
     font-size: 42px;
   }
-
+  
   header nav ul {
-   align-items: center;
-   flex-direction: row;
-  }
-  
- main img {
-  width: 300px;
-}
-
-
-  header nav ul li a:hover {
-    color: #bdbdbd;
-  }
-  
-
-  /* --- keeping flex direction row for larger monitors --- */
-  .group {
-    flex-direction: row;
     align-items: center;
   }
 
-
+  .group {
+    align-items: center;
+    flex-direction: row;
+  }
+}
