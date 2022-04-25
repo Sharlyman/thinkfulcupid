@@ -164,6 +164,7 @@ footer p {
 
   header nav ul {
    align-items: flex;
+   flex-direction: row;
   }
   
  main img {
