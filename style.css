@@ -31,10 +31,18 @@ section.alternate-background {
   color: #ecdbc9;
 }
 
-
-main img {
-  width: 500px;
+img {
+ height: 100%;
+ width: 100%;
+ object-fit: contain;
 }
+
+.cat {
+ height:300px;
+ width: 300px;
+}
+
+
 
 /* ---  Groups & Items --- */
 
