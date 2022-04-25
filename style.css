@@ -31,6 +31,10 @@ section.alternate-background {
   color: #ecdbc9;
 }
 
+img {
+  width: 100px;
+}
+
 main img {
   width: 100px;
 }
